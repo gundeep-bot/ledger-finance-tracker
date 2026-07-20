@@ -1,0 +1,50 @@
+.balance-strip {
+  background: linear-gradient(135deg, rgba(42, 111, 111, 0.35), rgba(11, 15, 23, 0.6)) !important;
+  margin-bottom: 24px;
+}
+
+.balance-strip .tilt-card-content {
+  padding: 26px 28px 22px;
+}
+
+.balance-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.balance-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.balance-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+
+.balance-value {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--ink);
+  text-shadow: 0 0 30px rgba(79, 193, 193, 0.25);
+}
+
+.balance-track {
+  margin-top: 22px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.balance-fill {
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 12px var(--teal-glow);
+}
